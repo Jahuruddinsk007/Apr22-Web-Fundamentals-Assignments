@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Registration Form</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <style>
+        body {
+            background: -webkit-linear-gradient(to right, #EAECC6, #2BC0E4);
+            background: linear-gradient(to right, #EAECC6, #2BC0E4);
+        }
+
+        .card {
+            max-width: 500px;
+            margin: auto;
+            color: whitesmoke;
+            background-image: url("./image/bg.png");
+            box-shadow: 0px 14px 80px rgba(34, 35, 58, 0.2);
+            padding: 0px 55px 4px 55px;
+            border-radius: 15px;
+            transition: all 0.3s;
+        }
+
+        input {
+            padding: 100px auto !important;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-6">
+                <div class="card">
+                    <div class="card-header text-white text-center">
+                        <h3>Registration Form</h3>
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <label for="basic-url" class="form-label">Enter Your Name :-</label>
+                            <div class="row">
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="First Name"
+                                        aria-label="First name">
+                                </div>
+                                <div class="col">
+                                    <input type="text" class="form-control" placeholder="Last Name"
+                                        aria-label="Last name">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mt-3">
+                            <label for="basic-url" class="form-label">Enter Your Mobile Number :-</label>
+                            <input class="form-control" type="number" placeholder="Mobile Number" />
+                        </div>
+                        <div class="mt-3">
+                            <label for="formFile" class="form-label">Choose Your Profile Photo :</label>
+                            <input class="form-control" type="file" id="formFile">
+                        </div>
+                        <div class="mt-3">
+                            <label for="basic-url" class="form-label">Enter Your Email :-</label>
+                            <input class="form-control" type="email" placeholder="Email" />
+                        </div>
+                        <div class="mt-3">
+                            <label for="basic-url" class="form-label">Enter A Password :-</label>
+                            <input class="form-control" type="password" placeholder="Password" />
+                        </div>
+                        <div class="mt-3">
+                            <label for="basic-url" class="form-label">Select Your Gender :</label>
+                            <select class="form-select" aria-label="Default select example">
+                                <option selected>Male</option>
+                                <option value="1">Female</option>
+                                <option value="2">Others</option>
+                                <!-- <option value="3">Three</option> -->
+                            </select>
+                        </div>
+                        <div class="mt-3">
+                            <label for="basic-url" class="form-label">Enter Your Address :-</label>
+                            <div class="form-floating">
+                                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
+                                    style="height: 100px"></textarea>
+                                <label for="floatingTextarea2">Address</label>
+                            </div>
+                        </div>
+                        <div class="text-center mt-3">
+                            <button class="btn btn-primary px-3">Register</button>
+                            <button class="btn btn-primary px-3 mx-3">Login</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-6 mt-5">
+                <center>
+                    <h3>Register Here</h3>
+                    <h4>You are most welcome as a new user !</h4>
+                </center>
+                <br><br><br>
+                <img class="mt-5" src="./image/test01.png" alt="_blank">
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
